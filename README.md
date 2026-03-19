@@ -61,7 +61,8 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 ### As JMeter Listener
 
 1. **Add the Listener** to your test plan
-![Plugin.png](docs/screenshots/Plugin.png)
+
+      ![Plugin.png](docs/screenshots/Plugin.png)
 2. **Configure Settings**:
    - **Current JTL File**: Path to current test results (required)
    - **Baseline JTL File** (optional): Path to baseline results for comparison
@@ -72,11 +73,12 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
    - **AI API Key** (optional): Required for OpenAI/Claude/Gemini, leave empty for Ollama
    - **AI Endpoint** (optional): Custom API endpoint if needed
    - **Export to PDF**: Check to export PDF version
-   ![Config_Settings.png](docs/screenshots/Config_Settings.png)
+   
+       ![Config_Settings.png](docs/screenshots/Config_Settings.png)
 
 3. **Click Generate Report** - Report is automatically displayed when generates completes
 
-    [JMeter Insight Pro Comparision Report_UI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)
+      [JMeter Insight Pro Comparision Report_UI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)
 
 ### AI Provider Configuration
 
@@ -125,8 +127,11 @@ java -jar jmeter-performance-reporter-1.0.0.jar results.jtl
 # Generate comparison report without AI
 java -jar jmeter-performance-reporter-1.0.0.jar current.jtl baseline.jtl ./reports 5.0
 ```
+#### Single Report
+[JMeter Insight Pro Single Report_CLI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Single%20Report_CLI.mp4)
 
-
+#### Comparison Report
+[JMeter Insight Pro Comparision Report_CLI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_CLI.mp4)
 
 
 #### CLI Arguments

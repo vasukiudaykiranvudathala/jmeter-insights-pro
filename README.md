@@ -80,7 +80,7 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 
 ## 🎥 Demo
 
-[![Watch Demo](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_GUI_Thumbnail.png)(https://github.com/user-attachments/assets/258872a4-18a7-49b8-9b60-00d3228a89ec)
+[![Watch JMeter Insight Pro Demo](docs/screenshots/jmeter-insight-thumbnail.png)](https://github.com/user-attachments/assets/258872a4-18a7-49b8-9b60-00d3228a89ec)
       
 ### AI Provider Configuration
 

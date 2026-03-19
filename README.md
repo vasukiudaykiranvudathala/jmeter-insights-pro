@@ -130,8 +130,7 @@ java -jar jmeter-performance-reporter-1.0.0.jar results.jtl
 java -jar jmeter-performance-reporter-1.0.0.jar current.jtl baseline.jtl ./reports 5.0
 ```
 #### Single Report
-[JMeter Insight Pro Single Report_CLI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Single%20Report_CLI.mp4)
-
+[![Watch Demo](docs/screenshots/JMeter Insight Pro Single Report_CLI_Thumbnail.png)](https://github.com/user-attachments/assets/99e8650d-b4e6-46d7-9b95-ed3d2984ccbb)
 #### Comparison Report
 [JMeter Insight Pro Comparision Report_CLI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_CLI.mp4)
 

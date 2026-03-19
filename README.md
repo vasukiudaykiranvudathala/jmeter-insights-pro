@@ -78,7 +78,11 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 
 3. **Click Generate Report** - Report is automatically displayed when generates completes
 
-      [JMeter Insight Pro Comparision Report_UI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)
+   <p align="center" width="100%">
+<video src="[JMeter Insight Pro Comparision Report_UI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)" width="80%" controls></video>
+</p>
+
+      
 
 ### AI Provider Configuration
 

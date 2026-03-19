@@ -81,11 +81,7 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 ## 🎥 Demo
 
 [![Watch Demo](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_GUI_Thumbnail.png)](https://github.com/user-attachments/assets/e076a8b5-523d-483a-81e0-6ed31f337e3e)
-
-👉 [Watch Full Comparison Report UI](https://github.com/user-attachments/assets/e076a8b5-523d-483a-81e0-6ed31f337e3e)
-
       
-
 ### AI Provider Configuration
 
 #### Ollama (Free & Local - Recommended for Getting Started)

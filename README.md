@@ -61,6 +61,7 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 ### As JMeter Listener
 
 1. **Add the Listener** to your test plan
+![Plugin.png](docs/screenshots/Plugin.png)
 2. **Configure Settings**:
    - **Current JTL File**: Path to current test results (required)
    - **Baseline JTL File** (optional): Path to baseline results for comparison
@@ -71,8 +72,11 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
    - **AI API Key** (optional): Required for OpenAI/Claude/Gemini, leave empty for Ollama
    - **AI Endpoint** (optional): Custom API endpoint if needed
    - **Export to PDF**: Check to export PDF version
+   ![Config_Settings.png](docs/screenshots/Config_Settings.png)
 
-3. **Run Your Test** - Report is automatically generated when test completes
+3. **Click Generate Report** - Report is automatically displayed when generates completes
+
+    [JMeter Insight Pro Comparision Report_UI.mp4](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)
 
 ### AI Provider Configuration
 
@@ -103,15 +107,27 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 ### Command Line Interface
 
 ```bash
-# Generate single report
+# Single with Ollama (no PDF at runtime, but user can still export it directly from Browser):
+java -jar jmeter-insights-pro-1.0.0.jar results.jtl ./reports 10.0 llama3.2 false ollama
+
+#Single with OpenAI (with PDF):
+java -jar jmeter-insights-pro-1.0.0.jar results.jtl ./reports 10.0 sk-proj-xxx true openai
+
+# Comparison with Ollama (no PDF):
+java -jar jmeter-insights-pro-1.0.0.jar current.jtl baseline.jtl ./reports 5.0 llama3.2 false ollama
+
+#Comparison with Claude (with PDF):
+java -jar jmeter-insights-pro-1.0.0.jar current.jtl baseline.jtl ./reports 5.0 sk-ant-xxx true claude
+
+# Generate single report without AI
 java -jar jmeter-performance-reporter-1.0.0.jar results.jtl
 
-# Generate comparison report
+# Generate comparison report without AI
 java -jar jmeter-performance-reporter-1.0.0.jar current.jtl baseline.jtl ./reports 5.0
-
-# With AI summary and PDF export
-java -jar jmeter-performance-reporter-1.0.0.jar current.jtl baseline.jtl ./reports 5.0 sk-xxx true
 ```
+
+
+
 
 #### CLI Arguments
 

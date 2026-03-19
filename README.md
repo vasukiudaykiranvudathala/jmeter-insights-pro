@@ -80,9 +80,9 @@ cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 
 ## 🎥 Demo
 
-![Quick Preview](docs/screenshots/demo.gif)
+![Quick Preview]("https://github.com/user-attachments/assets/ba99d2b5-fbf3-4990-9d65-795badfbd101")
 
-👉 [Watch Full Comparison Report UI](docs/screenshots/JMeter%20Insight%20Pro%20Comparision%20Report_UI.mp4)
+👉 [Watch Full Comparison Report UI]("https://github.com/user-attachments/assets/ba99d2b5-fbf3-4990-9d65-795badfbd101")
 
       
 

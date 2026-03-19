@@ -1,0 +1,24 @@
+# Screenshots Directory
+
+This directory contains screenshots for documentation and plugin submission.
+
+## Required Screenshots:
+
+1. **report-main.png** - Main report view showing performance metrics
+2. **report-comparison.png** - Comparison mode with baseline vs current
+3. **report-ai-analysis.png** - AI-generated insights section
+4. **jmeter-gui.png** - Plugin interface in JMeter GUI
+
+## Usage:
+
+These screenshots are used for:
+- GitHub repository documentation
+- JMeter Plugin Manager submission
+- README and guides
+
+## Instructions:
+
+1. Generate reports using the plugin
+2. Take screenshots of the reports
+3. Save them in this directory with the names above
+4. Commit and push to GitHub

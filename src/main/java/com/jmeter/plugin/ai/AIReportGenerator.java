@@ -42,7 +42,7 @@ public class AIReportGenerator {
         
         this.client = new OkHttpClient.Builder()
                 .connectTimeout(60, TimeUnit.SECONDS)
-                .readTimeout(600, TimeUnit.SECONDS)  // 10 minutes for AI inference
+                .readTimeout(900, TimeUnit.SECONDS)  // 15 minutes for AI inference
                 .writeTimeout(60, TimeUnit.SECONDS)
                 .build();
     }

@@ -41,26 +41,26 @@
 
 ### Report Features
 
-✅ **Performance Metrics**
+**Performance Metrics**
 - Average, P90, P95, P99 response times
 - Error rates and throughput
 - Success/failure counts
 - Transaction-level breakdown
 
-✅ **Visual Analytics**
+**Visual Analytics**
 - Interactive Chart.js visualizations
 - Color-coded performance indicators
 - Sortable, filterable tables
 - Responsive design for all devices
 
-✅ **AI Analysis** (Optional)
+**AI Analysis** (Optional)
 - Executive summary
 - Critical issues identification
 - Root cause analysis
 - Risk assessment
 - Actionable recommendations
 
-✅ **Comparison Analysis**
+**Comparison Analysis**
 - Baseline vs current comparison
 - Percentage change calculations
 - Threshold-based alerting
@@ -217,11 +217,11 @@ java -jar jmeter-insights-pro-1.0.0.jar \
 
 #### CLI Advantages
 
-✅ **Automation** - Perfect for CI/CD pipelines
-✅ **Batch Processing** - Process multiple reports
-✅ **Scripting** - Easy integration with shell scripts
-✅ **Headless** - No GUI required
-✅ **Version Control** - Store commands in scripts
+**Automation** - Perfect for CI/CD pipelines
+**Batch Processing** - Process multiple reports
+**Scripting** - Easy integration with shell scripts
+**Headless** - No GUI required
+**Version Control** - Store commands in scripts
 
 ---
 
@@ -257,8 +257,8 @@ The JMeter GUI integration provides an interactive way to generate reports durin
 
 **Options:**
 
-- ☑️ **Export PDF** - Enable browser-based PDF export
-- ☑️ **Enable AI Analysis** - Generate AI-powered insights
+- ☑ **Export PDF** - Enable browser-based PDF export
+- ☑ **Enable AI Analysis** - Generate AI-powered insights
 
 #### GUI Workflow
 
@@ -279,11 +279,11 @@ The JMeter GUI integration provides an interactive way to generate reports durin
 
 #### GUI Advantages
 
-✅ **Visual Configuration** - Easy point-and-click setup
-✅ **Immediate Feedback** - See results instantly
-✅ **Test Development** - Perfect for iterative testing
-✅ **No Command Line** - User-friendly interface
-✅ **Integrated Workflow** - Part of JMeter test plan
+☑ **Visual Configuration** - Easy point-and-click setup
+☑ **Immediate Feedback** - See results instantly
+☑ **Test Development** - Perfect for iterative testing
+☑ **No Command Line** - User-friendly interface
+☑ **Integrated Workflow** - Part of JMeter test plan
 
 ---
 
@@ -520,11 +520,11 @@ docker run -v $(pwd):/tests \
 
 #### CI/CD Advantages
 
-✅ **Automated Testing** - Run on every commit/PR
-✅ **Regression Detection** - Catch performance issues early
-✅ **Historical Tracking** - Archive reports over time
-✅ **Quality Gates** - Fail builds on threshold violations
-✅ **Team Visibility** - Share reports with stakeholders
+☑ **Automated Testing** - Run on every commit/PR
+☑ **Regression Detection** - Catch performance issues early
+☑ **Historical Tracking** - Archive reports over time
+☑ **Quality Gates** - Fail builds on threshold violations
+☑ **Team Visibility** - Share reports with stakeholders
 
 ---
 
@@ -536,10 +536,10 @@ Analyzes a single test run without comparison.
 
 #### When to Use
 
-- ✅ First-time performance testing
-- ✅ Exploratory testing
-- ✅ Baseline establishment
-- ✅ Ad-hoc analysis
+- ☑ First-time performance testing
+- ☑ Exploratory testing
+- ☑ Baseline establishment
+- ☑ Ad-hoc analysis
 
 #### Features
 
@@ -568,10 +568,10 @@ java -jar jmeter-insights-pro-1.0.0.jar \
 
 #### Single Report Advantages
 
-✅ **Simple Setup** - Only one JTL file needed
-✅ **Quick Analysis** - Fast report generation
-✅ **Baseline Creation** - Establish performance baseline
-✅ **Standalone** - No comparison needed
+☑ **Simple Setup** - Only one JTL file needed
+☑ **Quick Analysis** - Fast report generation
+☑ **Baseline Creation** - Establish performance baseline
+☑ **Standalone** - No comparison needed
 
 ---
 
@@ -581,11 +581,11 @@ Compares baseline performance against current test results.
 
 #### When to Use
 
-- ✅ Regression testing
-- ✅ CI/CD pipelines
-- ✅ Release validation
-- ✅ Performance monitoring
-- ✅ Before/after optimization
+- ☑ Regression testing
+- ☑ CI/CD pipelines
+- ☑ Release validation
+- ☑ Performance monitoring
+- ☑ Before/after optimization
 
 #### Features
 
@@ -628,11 +628,11 @@ java -jar jmeter-insights-pro-1.0.0.jar \
 
 #### Comparison Report Advantages
 
-✅ **Regression Detection** - Identify performance degradation
-✅ **Threshold Alerts** - Automatic issue flagging
-✅ **Trend Analysis** - Track performance over time
-✅ **Data-Driven Decisions** - Quantify improvements/regressions
-✅ **CI/CD Integration** - Automated quality gates
+☑ **Regression Detection** - Identify performance degradation
+☑ **Threshold Alerts** - Automatic issue flagging
+☑ **Trend Analysis** - Track performance over time
+☑ **Data-Driven Decisions** - Quantify improvements/regressions
+☑ **CI/CD Integration** - Automated quality gates
 
 ---
 
@@ -645,10 +645,10 @@ java -jar jmeter-insights-pro-1.0.0.jar \
 **Models:** GPT-4, GPT-3.5-turbo
 
 **Pros:**
-- ✅ Excellent analysis quality
-- ✅ Fast response times
-- ✅ Reliable and stable
-- ✅ $5 free credit for new users
+- ☑ Excellent analysis quality
+- ☑ Fast response times
+- ☑ Reliable and stable
+- ☑ $5 free credit for new users
 
 **Cons:**
 - ❌ Requires API key
@@ -673,10 +673,10 @@ java -jar jmeter-insights-pro-1.0.0.jar \
 **Models:** Claude 3 Sonnet, Claude 3 Opus
 
 **Pros:**
-- ✅ Best-in-class analysis quality
-- ✅ Detailed, nuanced insights
-- ✅ Excellent reasoning
-- ✅ Long context window
+- ☑ Best-in-class analysis quality
+- ☑ Detailed, nuanced insights
+- ☑ Excellent reasoning
+- ☑ Long context window
 
 **Cons:**
 - ❌ Requires API key

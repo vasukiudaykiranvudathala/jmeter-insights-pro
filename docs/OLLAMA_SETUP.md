@@ -1,6 +1,6 @@
 # Ollama AI Integration Guide - 100% FREE Local AI!
 
-## 🎉 **Ollama Support Added - Completely Free!**
+##  **Ollama Support Added - Completely Free!**
 
 JMeter Insights Pro now supports **Ollama** for **100% free, local AI analysis**!
 
@@ -18,20 +18,8 @@ JMeter Insights Pro now supports **Ollama** for **100% free, local AI analysis**
 - ✅ **Fast** - Runs locally on your hardware
 - ✅ **Multiple Models** - Choose from dozens of open-source models
 
-### **Comparison**
 
-| Feature | Ollama | OpenAI | Claude |
-|---------|--------|--------|--------|
-| **Cost** | ✅ FREE | $0.50/1M tokens | $3.00/1M tokens |
-| **Privacy** | ✅ 100% Local | ❌ Cloud | ❌ Cloud |
-| **Internet Required** | ❌ No | ✅ Yes | ✅ Yes |
-| **Rate Limits** | ❌ None | ✅ Yes | ✅ Yes |
-| **Setup** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Quality** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-
----
-
-## 🚀 **Quick Start (3 Steps)**
+##  **Quick Start (3 Steps)**
 
 ### **Step 1: Install Ollama**
 

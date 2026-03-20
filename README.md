@@ -1,4 +1,4 @@
-# 🚀 JMeter Insights Pro [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/vasukiudaykiranvudathala/jmeter-insights-pro)[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)[![JMeter](https://img.shields.io/badge/JMeter-5.4%2B-orange.svg)](https://jmeter.apache.org/)
+# JMeter Insights Pro [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/vasukiudaykiranvudathala/jmeter-insights-pro)[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)[![JMeter](https://img.shields.io/badge/JMeter-5.4%2B-orange.svg)](https://jmeter.apache.org/)
 
 > Transform raw JMeter test results into AI-powered performance insights.
 
@@ -10,7 +10,7 @@ A comprehensive JMeter plugin that generates interactive HTML performance report
 
 ![Thumbnail.png](docs/screenshots/Thumbnail.png)
 
-## ✨ Features
+## Features
 
 ●  **AI Powered Summary** - Intelligent performance analysis with executive summaries, critical findings, and actionable recommendations  
 ●  **Compare Two JTL Files** - Baseline vs current performance with threshold-based regression detection  
@@ -71,14 +71,14 @@ mvn clean package
 cp target/jmeter-insights-pro-1.0.0.jar $JMETER_HOME/lib/ext/
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 - Detect performance regressions instantly  
 - Automate performance analysis in CI/CD  
 - Generate executive-ready reports  
 - Analyze large-scale JTL files with AI
 
-## 🧠 How It Works
+## How It Works
 
 JTL File → Metrics Extraction → AI Analysis → HTML Report → Insights
 
